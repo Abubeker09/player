@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contaner">
+    <nav>
+      <button class="exit">
+        <
+      </button>
+      <button class="manu">
+        ≡
+      </button>
+    </nav>
+    <section>
+      <img src="music/468-thumbnail.png">
+      <h2>Go NEFFEX</h2>
+      <p>Hip-Hop & Rap</p>
+    </section>
+
+    <article>
+      <h4>0:00 / 0:00</h4>
+      <div class="audioandrang">
+        <div class="audio">🔊</div>
+        <span class="volum">
+          <input type="range" id="rg">
+        </span>
+        <input type="range" id="range">
+        <audio id="myAudio" src="music/You Will Never See Me Coming - NEFFEX.mp3"></audio>
+
+        <button class="options" id="optionsBtn">
+          <span class="opt">⁝</span>
+        </button>
+          <div class="dropdown-content" id="optionsDropdown">
+            <h5 class="download-option">
+              <img class="icone" src="music/download icon.png"> Download
+            </h5>
+            <h5 class="speed-option">
+              <img class="icone" src="music/speed icon.png" alt=""> Playback Speed
+              <select id="speedOptions">
+                <option value="0.5">0.5x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+              </select>
+            </h5>
+          </div>
+      </div>
+      <main>
+          <button class="priv">◁◁</button>
+          <button class="puse">▶</button>
+          <button class="next">▷▷</button>
+      </main>
+    </article>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
